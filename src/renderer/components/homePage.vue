@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
         This is the homepage.
-        <h3 class="wrapper-inside">
+        <h3 class="inside">
             This is the subtitle
         </h3>
     </div>
@@ -20,9 +20,10 @@
 
     .wrapper {
         font-size: 3rem;
+        background-color: var(--color-main);
 
-        &-inside {
-            font-size: 11rem;
+        & .inside {
+            font-size: 1rem;
         }
     }
 </style>
